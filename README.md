@@ -12,9 +12,8 @@ The geospatial data layers are hosted externally: [Data](https://drive.google.co
 | Predicted sand % | | pred\_sand.tif |
 | POLARIS Clay % | Probability-weighted expected values across all the soil series predicted for each pixel, from Chaney et al. (2016; 2019). Values are averaged across depth intervals of 0–5 and 5–15 cm. | clay\_polaris.tif |
 | POLARIS Sand % | Probability-weighted expected values across all the soil series predicted for each pixel, from Chaney et al. (2016; 2019). Values are averaged across depth intervals of 0–5 and 5–15 cm. | sand\_polaris.tif |
-| Geology | From CO geologic map (Green, 1992). | co\_geol.zip |
-| Distance to intrusive rock contact | Euclidean distance from each pixel to the nearest intrusive rock contact, with negative values indicating locations within the formation. | intrusive.tif |
-| Distance to shale rock contact | Euclidean distance from each pixel to the nearest shale rock contact, with negative values indicating locations within the formation. | shale.tif |
+| Distance to intrusive rock contact | Euclidean distance from each pixel to the nearest intrusive rock contact, with negative values indicating locations within the formation. From CO geologic map (Green, 1992).| intrusive.tif |
+| Distance to shale rock contact | Euclidean distance from each pixel to the nearest shale rock contact, with negative values indicating locations within the formation. From CO geologic map (Green, 1992).| shale.tif |
 | NDVI | Peak NDVI from 2021, using  Landsat 8 imagery (USGS, 2021). | ndvi.tif |
 | Elevation | DEM (USGS, 2024\) | elevation.tif |
 | Potential incoming solar radiation | Annual net potential solar radiation, based on Hebeler (2016) and Kumar et al. (1997).  | radiation.tif |
