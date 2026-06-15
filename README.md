@@ -4,9 +4,7 @@
 
 All data layers, with the exception of predicted clay and sand content, are derived from previously published datasets, and are described in the supplemental data of King et al. All rasters are resampled to 10 m resolution. Topographic variables were computed using the DEM and TopoToolBox (Schwanghart & Scherler, 2014). 
 
-The geospatial data layers are hosted externally: 
-
-[Data](https://drive.google.com/drive/folders/1oDRfgWEceTJ81bIF61zWmvgOiuNJnf9P?usp=sharing)
+The geospatial data layers are hosted externally: [Data](https://drive.google.com/drive/folders/1oDRfgWEceTJ81bIF61zWmvgOiuNJnf9P?usp=sharing)
 
 | Data layer | Description | Filename |
 | :---- | :---- | :---- |
