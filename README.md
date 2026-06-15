@@ -8,7 +8,6 @@ All data layers, with the exception of predicted clay and sand content, are deri
 | :---- | :---- | :---- |
 | Predicted clay % | | pred\_clay.tif |
 | Predicted sand % | | pred\_sand.tif |
-| Geology | From CO geologic map (Green, 1992). | co\_geol.zip |
 | POLARIS Clay % | Probability-weighted expected values across all the soil series predicted for each pixel, from Chaney et al. (2016; 2019). Values are averaged across depth intervals of 0–5 and 5–15 cm. | clay\_polaris.tif |
 | POLARIS Sand % | Probability-weighted expected values across all the soil series predicted for each pixel, from Chaney et al. (2016; 2019). Values are averaged across depth intervals of 0–5 and 5–15 cm. | sand\_polaris.tif |
 | Geology | From CO geologic map (Green, 1992). | co\_geol.zip |
