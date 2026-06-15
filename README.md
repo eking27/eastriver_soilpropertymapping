@@ -4,6 +4,10 @@
 
 All data layers, with the exception of predicted clay and sand content, are derived from previously published datasets, and are described in the supplemental data of King et al. All rasters are resampled to 10 m resolution. Topographic variables were computed using the DEM and TopoToolBox (Schwanghart & Scherler, 2014). 
 
+The geospatial data layers are hosted externally: 
+
+[Data](https://drive.google.com/drive/folders/1oDRfgWEceTJ81bIF61zWmvgOiuNJnf9P?usp=sharing)
+
 | Data layer | Description | Filename |
 | :---- | :---- | :---- |
 | Predicted clay % | | pred\_clay.tif |
@@ -21,13 +25,13 @@ All data layers, with the exception of predicted clay and sand content, are deri
 | Slope |  | slope.tif |
 | Stream | Stream location as delineated using DEM and TopoToolBox (Schwanghart & Scherler, 2014).  | stream.zip |
 
-## 2. Sampling locations
+## 2. Sampling Locations
 
-### Soil texture sampling locations (*soil\_texture.zip*)
+### Soil texture sampling locations (*soil\_texture.csv*)
 
 This dataset includes 303 core locations as collected at 2.5–7.5 cm depth during the 2018 National Ecological Observatory Network's Airborne Observation Platform (NEON AOP) campaign (Chadwick et al., 2020). 13 additional cores were collected at 10 cm depth during 2021 and 2023 field campaigns. All sample materials \< 2 mm were analyzed using the hydrometer method to determine fractional clay and sand content (Huluka and Miller, 2014). Clay and sand content are included as attributes.
 
-### Soil moisture sensor locations (*soil\_moisture.zip*)
+### Soil moisture sensor locations (*soil\_moisture.csv*)
 
 This dataset shows the locations of 36 soil moisture sensors. The sensors are high-frequency (15-minute interval) TMS-4 loggers, which record raw counts proportional to volumetric water content, integrated over the upper 0–10 cm of soil (Wild et al., 2019). Two soil moisture metrics, *mean* and *b*, are included as attributes. *Mean* refers to the 2022 growing-season mean soil moisture recorded at each sensor, and *b* refers to the mean growing-season exponential depletion rate following growing-season rainfall events. Descriptions of these metrics are reported in King et al.
 
